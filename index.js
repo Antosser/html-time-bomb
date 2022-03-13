@@ -4,4 +4,4 @@ $('#gen').click(() => {
     scriptInside = `eval(atob('${scriptInside}'))`;
     var result = `<script defer>${scriptInside}</script>`;
     $('#out').val(result);
-})
+});
